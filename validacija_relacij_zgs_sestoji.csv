@@ -1,0 +1,20 @@
+TARGET_FIELD,TARGET_FIELD_RULE,TARGET_FIELD_RULE_PARAM,CONDITION_FIELD,CONDITION_FIELD_VALUE
+; ----- rfaza -----
+; bele celice: polje ne sme biti prazno
+zasnova,ne sme biti prazno,,rfaza,1|2|10
+negovan,ne sme biti prazno,,rfaza,1|2|3|4|5|6|7
+sklep,ne sme biti prazno,,rfaza,1|2|3
+; sive celice: polje mora biti prazno
+zasnova,mora biti prazno,Ni vrednosti,rfaza,3|4|5|6|7|8|9
+negovan,mora biti prazno,Ni vrednosti,rfaza,8|9|10
+sklep,mora biti prazno,Ni vrednosti,rfaza,4|5|6|7|8|9|10
+
+; ----- rfaza_naziv -----
+; bele celice: polje ne sme biti prazno
+zasnova,ne sme biti prazno,Ni vrednosti,rfaza_naziv,MLADOVJE|DROGOVNJAK|PIONIRSKI GOZD Z GRMIŠČI
+negovan,ne sme biti prazno,Ni vrednosti,rfaza_naziv,"MLADOVJE|DROGOVNJAK|DEBELJAK|SESTOJ V OBNOVI|DVOSLOJNI SESTOJ|RAZNOMERNO (PS-ŠP, PREB)|RAZNOMERNO (SK-GNZ)"
+sklep,ne sme biti prazno,Ni vrednosti,rfaza_naziv,MLADOVJE|DROGOVNJAK|DEBELJAK
+; sive celice: polje mora biti prazno
+zasnova,mora biti prazno,Ni vrednosti,rfaza_naziv,"DEBELJAK|SESTOJ V OBNOVI|DVOSLOJNI SESTOJ|RAZNOMERNO (PS-ŠP, PREB)|RAZNOMERNO (SK-GNZ)|PANJEVEC|GRMIČAV GOZD"
+negovan,mora biti prazno,Ni vrednosti,rfaza_naziv,PANJEVEC|GRMIČAV GOZD|PIONIRSKI GOZD Z GRMIŠČI
+sklep,mora biti prazno,Ni vrednosti,rfaza_naziv,"SESTOJ V OBNOVI|DVOSLOJNI SESTOJ|RAZNOMERNO (PS-ŠP, PREB)|RAZNOMERNO (SK-GNZ)|PANJEVEC|GRMIČAV GOZD|PIONIRSKI GOZD Z GRMIŠČI"

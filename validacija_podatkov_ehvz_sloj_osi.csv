@@ -1,0 +1,20 @@
+TARGET_FIELD,TARGET_FIELD_RULE,TARGET_FIELD_RULE_PARAM,TARGET_FIELD_TYPE
+VRSTA,dovoljene vrednosti,1|2|3|4,Integer
+OS,dovoljene vrednosti,1|2,Integer
+VODNI_TOK,dovoljene vrednosti,1|2,Integer
+VODE_ID,dovoljene vrednosti,1|z1-|2|z2-|3|z3-|4|z4-|z5-|6|z6-|0000|9999,String
+HMZ_ID,dovoljene vrednosti,z0-|1|z1-|2|z2-|3|z3-|4|z4-|5|z5-|z6-|0000|8888,String
+GEOG_IME,dovoljene vrednosti,crke|0000|8888,String
+ID_IMENA,dovoljene vrednosti,stevilke,Double
+IZVOR,dovoljene vrednosti,1|2,Integer
+STALNOST,dovoljene vrednosti,1|2|3|4,Integer
+STANJE,dovoljene vrednosti,1|2|3|4|9999,Integer
+POTEK_ZNAN,dovoljene vrednosti,1|2,Integer
+TIP_TV,dovoljene vrednosti,1|2|3|4|5|6,Integer
+TIP_PREH,dovoljene vrednosti,1|2|3|4|5|6|9999,Integer
+SIRINA,dovoljene vrednosti,1|2|3|4|5|6|7|8|9999,Integer
+VIR,dovoljene vrednosti,1|2|3|4|5|6,Integer
+DVIR,dovoljene vrednosti,regex(^[0-9]{8}),Double
+PAS_VZ,dovoljene vrednosti,stevilke|8888|9999,Integer
+PREOBLIK,dovoljene vrednosti,1|2|9999,Integer
+ST_POST,dovoljene vrednosti,stevilke,Integer
